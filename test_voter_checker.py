@@ -18,4 +18,6 @@ def test_exactly_18_and_non_citizen(self):
 def test_negative_age(self):
     self.assertFalse(self.is_eligible_to_vote(-18,False))
 
+if__name__ == "__main__":
+unittest.main()
     
