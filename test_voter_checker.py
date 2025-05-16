@@ -19,5 +19,4 @@ class TestVoterEligibility(unittest.TestCase):
         self.assertFalse(self.is_eligible_to_vote(-18,False))
 
 if __name__ == "__main__":
-    unittest.main()
-    
+     unittest.main()  
