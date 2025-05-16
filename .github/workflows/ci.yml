@@ -1,4 +1,4 @@
-name: Voter Voter Eligibility Checker 
+name: Voter  Eligibility Checker 
 
 on: [push, pull_request]
 
