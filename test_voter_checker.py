@@ -11,4 +11,11 @@ def test_non_citizen_voter(self):
 
 def test_underage_non_citizen(self):
     self.assertFalse(self.is_eligible_to_vote(16,False))
+
+def test_exactly_18_and_non_citizen(self):
+     self.assertFalse(self.is_eligible_to_vote(18,False))
+
+def test_negative_age(self):
+    self.assertFalse(self.is_eligible_to_vote(-18,False))
+
     
