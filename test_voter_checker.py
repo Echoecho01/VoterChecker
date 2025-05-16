@@ -1,7 +1,8 @@
 import unittest
 from voter_checker import is_eligible_to_vote
 
-class TestVoterEligibility(unittest.TestCase):
+
+class TestVoterEligibility(unittest.TestCase): 
     
     def test_underage_voter(self):
         self.assertFalse(self.underage_voter(17, True))
